@@ -1,11 +1,9 @@
 package main
 
-import (
-    "fmt"
-)
+import "fmt"
 
-func main(){
-    var str string
-    fmt.Scanf("%s",&str)    
-    fmt.Println(str)
+func main() {
+    var s1 string
+    fmt.Scan(&s1)
+    fmt.Println(s1)
 }
