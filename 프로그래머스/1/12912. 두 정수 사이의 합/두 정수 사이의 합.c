@@ -13,10 +13,7 @@ long long solution(int a, int b)
     a = a ^ b;
   }
 
-  for (; a <= b; a++)
-  {
-    answer += a;
-  }
+  answer = (long long)(a + b) * (b - a + 1) / 2;
 
   return answer;
 }
